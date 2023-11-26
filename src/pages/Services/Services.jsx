@@ -1,10 +1,12 @@
 // import React from 'react'
 import "./Services.css"
 import {Button,Divider} from "@nextui-org/react";
+import Navbar from "../../Components/Navbar/Navbar";
 
 const Services = () => {
     return (
         <>
+        <Navbar/>
             <div className="service">
                 <div className="service1">
                     <div className="service-list">
