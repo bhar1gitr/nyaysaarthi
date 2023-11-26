@@ -6,12 +6,13 @@ import { ToastContainer } from "react-toastify";
 import "../firebaseConfig";
 import Loader from "./Components/Loader/Loader";
 import Services from "./pages/Services/Services"
+import  Navbar  from "./Components/Navbar/Navbar";
 
 function App() {
   return (
    <Router>
+        <Navbar/>
       <Routes>
-        <Route path="/" element={<h1>Hello</h1>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/signup' element={<Signup/>}/>
         <Route path="/profile/setup" element={<Profile_setup/>}/>
